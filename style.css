@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background
+{
+    background-image:url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    min-height: 90vh;
+}
+.row1
+{
+    width: 90%;
+    margin: auto;
+}
+.berger_menu
+{ 
+    display: flex;
+    float: left;
+    margin-top: 20px;
+}
+.berger_menu p
+{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+.text
+{
+    text-transform: uppercase;
+    color: rgb(0, 255, 0);
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.body
+{
+    clear: both;
+    margin-left: 80px;
+}
+.text1
+{
+    display: inline-block;
+    width: 500px;
+    margin-left: 100px ;
+    font-size: small;
+    color: white;
+}
+.text2
+{
+    background-color: rgba(12, 14, 12, 0.404);
+    float: right;
+    color: rgb(60, 255, 0);
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.footer
+{
+    clear: both;
+    height:50px ;
+    background-color: rgb(38, 255, 0);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer p
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
